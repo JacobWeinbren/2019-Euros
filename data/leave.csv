@@ -1,0 +1,633 @@
+Constituency name,Figure to use
+Aldershot,0.5789776574
+Aldridge-Brownhills,0.6779634958
+Altrincham and Sale West,0.3858779999
+Amber Valley,0.6529912472
+Arundel and South Downs,0.4970110581
+Ashfield,0.7047288884
+Ashford,0.5986194744
+Ashton-under-Lyne,0.6180980255
+Aylesbury,0.5178790984
+Banbury,0.5034779774
+Barking,0.5997487956
+Barnsley Central,0.6818813044
+Barnsley East,0.7098499348
+Barrow and Furness,0.5727870645
+Basildon and Billericay,0.6713587731
+Basingstoke,0.5359878197
+Bassetlaw,0.6832275495
+Bath,0.3172454892
+Batley and Spen,0.5962839763
+Battersea,0.2204674055
+Beaconsfield,0.4900626733
+Beckenham,0.4838170491
+Bedford,0.5194916653
+Bermondsey and Old Southwark,0.2605032728
+Berwick-upon-Tweed,0.552978154
+Bethnal Green and Bow,0.3085839516
+Beverley and Holderness,0.5873947556
+Bexhill and Battle,0.5772121461
+Bexleyheath and Crayford,0.6525513745
+Birkenhead,0.517076065
+"Birmingham, Edgbaston",0.4734707048
+"Birmingham, Erdington",0.6297289172
+"Birmingham, Hall Green",0.3356875091
+"Birmingham, Hodge Hill",0.5148416727
+"Birmingham, Ladywood",0.3562267156
+"Birmingham, Northfield",0.617882451
+"Birmingham, Perry Barr",0.5121731706
+"Birmingham, Selly Oak",0.4690743133
+"Birmingham, Yardley",0.6009480763
+Bishop Auckland,0.6088597515
+Blackburn,0.5372925725
+Blackley and Broughton,0.5003920379
+Blackpool North and Cleveleys,0.6691034244
+Blackpool South,0.6781412457
+Blaydon,0.5612462434
+Blyth Valley,0.6049485326
+Bognor Regis and Littlehampton,0.6479230497
+Bolsover,0.703942464
+Bolton North East,0.5811275967
+Bolton South East,0.630276743
+Bolton West,0.5555402654
+Bootle,0.5479967454
+Boston and Skegness,0.7564987141
+Bosworth,0.6082936386
+Bournemouth East,0.5369069461
+Bournemouth West,0.5773176661
+Bracknell,0.532448746
+Bradford East,0.5515782934
+Bradford South,0.6356121775
+Bradford West,0.4674085444
+Braintree,0.6151564016
+Brent Central,0.4288758826
+Brent North,0.4261175105
+Brentford and Isleworth,0.4330890315
+Brentwood and Ongar,0.611892869
+Bridgwater and West Somerset,0.6206398322
+Brigg and Goole,0.6622691693
+"Brighton, Kemptown",0.435923134
+"Brighton, Pavilion",0.259335501
+Bristol East,0.4679527183
+Bristol North West,0.3885281199
+Bristol South,0.4795283789
+Bristol West,0.2071150843
+Broadland,0.5410084801
+Bromley and Chislehurst,0.4982886934
+Bromsgrove,0.5536512794
+Broxbourne,0.6553477318
+Broxtowe,0.525137019
+Buckingham,0.4887086722
+Burnley,0.6661279897
+Burton,0.6479315748
+Bury North,0.5366703124
+Bury South,0.5451175263
+Bury St Edmunds,0.5399247144
+Calder Valley,0.5316421306
+Camberwell and Peckham,0.3148177032
+Camborne and Redruth,0.5841285279
+Cambridge,0.262252731
+Cannock Chase,0.6886035313
+Canterbury,0.4532740482
+Carlisle,0.606437746
+Carshalton and Wallington,0.5626121404
+Castle Point,0.7269939242
+Central Devon,0.5088695191
+Central Suffolk and North Ipswich,0.5489119115
+Charnwood,0.578746718
+Chatham and Aylesford,0.6390539181
+Cheadle,0.4265303264
+Chelmsford,0.5068320063
+Chelsea and Fulham,0.2909905564
+Cheltenham,0.4289897606
+Chesham and Amersham,0.4498498396
+Chesterfield,0.592932532
+Chichester,0.5073277069
+Chingford and Woodford Green,0.4988047103
+Chippenham,0.5158581819
+Chipping Barnet,0.4107457795
+Chorley,0.56745851
+Christchurch,0.599639612
+Cities of London and Westminster,0.2805367285
+City of Chester,0.4227570868
+City of Durham,0.4333673396
+Clacton,0.730439705
+Cleethorpes,0.6950382101
+Colchester,0.5151448181
+Colne Valley,0.5005534919
+Congleton,0.5261269112
+Copeland,0.5919658372
+Corby,0.6014688934
+Coventry North East,0.5777456818
+Coventry North West,0.5837436004
+Coventry South,0.5037949289
+Crawley,0.584136714
+Crewe and Nantwich,0.6028912321
+Croydon Central,0.5031024069
+Croydon North,0.4116806604
+Croydon South,0.4580567492
+Dagenham and Rainham,0.7034795688
+Darlington,0.5809965023
+Dartford,0.639834539
+Daventry,0.5858949343
+Denton and Reddish,0.6098402815
+Derby North,0.5425037957
+Derby South,0.6135345111
+Derbyshire Dales,0.5123541177
+Devizes,0.5353419453
+Dewsbury,0.5714654852
+Don Valley,0.6848643718
+Doncaster Central,0.6670483969
+Doncaster North,0.7165068615
+Dover,0.6300961235
+Dudley North,0.7143022556
+Dudley South,0.7041731849
+Dulwich and West Norwood,0.2293742067
+Ealing Central and Acton,0.2915028059
+Ealing North,0.4625609216
+"Ealing, Southall",0.4182634912
+Easington,0.6596337483
+East Devon,0.504076662
+East Ham,0.4626928129
+East Hampshire,0.4927436942
+East Surrey,0.541993428
+East Worthing and Shoreham,0.5368144821
+East Yorkshire,0.6366218474
+Eastbourne,0.5754446064
+Eastleigh,0.5434589934
+Eddisbury,0.5216666864
+Edmonton,0.455096172
+Ellesmere Port and Neston,0.5834197808
+Elmet and Rothwell,0.5679310101
+Eltham,0.5181526511
+Enfield North,0.4921544262
+"Enfield, Southgate",0.3788481586
+Epping Forest,0.6101128584
+Epsom and Ewell,0.4778075706
+Erewash,0.6322379118
+Erith and Thamesmead,0.5463087853
+Esher and Walton,0.4156633024
+Exeter,0.4482789363
+Fareham,0.5552010727
+Faversham and Mid Kent,0.5867045504
+Feltham and Heston,0.5593200537
+Filton and Bradley Stoke,0.4877303387
+Finchley and Golders Green,0.3110078691
+Folkestone and Hythe,0.6164041021
+Forest of Dean,0.5788889683
+Fylde,0.5672864297
+Gainsborough,0.6195582417
+Garston and Halewood,0.4796281365
+Gateshead,0.5622325502
+Gedling,0.5629742908
+Gillingham and Rainham,0.6358208955
+Gloucester,0.5890014719
+Gosport,0.6181519262
+Grantham and Stamford,0.6099591413
+Gravesham,0.6537720795
+Great Grimsby,0.7144662955
+Great Yarmouth,0.7150494733
+Greenwich and Woolwich,0.356656796
+Guildford,0.4120234401
+Hackney North and Stoke Newington,0.2048078926
+Hackney South and Shoreditch,0.2278226185
+Halesowen and Rowley Regis,0.6658986796
+Halifax,0.5882165334
+Haltemprice and Howden,0.5523170958
+Halton,0.576668684
+Hammersmith,0.3131363377
+Hampstead and Kilburn,0.2372531934
+Harborough,0.5236640286
+Harlow,0.6773231788
+Harrogate and Knaresborough,0.4717935509
+Harrow East,0.4747858454
+Harrow West,0.4505624317
+Hartlepool,0.6956832972
+Harwich and North Essex,0.5899558448
+Hastings and Rye,0.5593723936
+Havant,0.6261790804
+Hayes and Harlington,0.5824500129
+Hazel Grove,0.5220859153
+Hemel Hempstead,0.5548656199
+Hemsworth,0.6812554559
+Hendon,0.4157417525
+Henley,0.4308582018
+Hereford and South Herefordshire,0.6041755815
+Hertford and Stortford,0.4923723453
+Hertsmere,0.5083652561
+Hexham,0.4533673575
+Heywood and Middleton,0.6242561164
+High Peak,0.5054802765
+Hitchin and Harpenden,0.3979351954
+Holborn and St Pancras,0.2665874363
+Hornchurch and Upminster,0.6949469368
+Hornsey and Wood Green,0.2498291003
+Horsham,0.4948641006
+Houghton and Sunderland South,0.6243418578
+Hove,0.3294684477
+Huddersfield,0.5185084158
+Huntingdon,0.5348897031
+Hyndburn,0.6581912778
+Ilford North,0.5330920424
+Ilford South,0.4330979986
+Ipswich,0.5651572347
+Isle of Wight,0.6194633409
+Islington North,0.2161112362
+Islington South and Finsbury,0.2828310011
+Jarrow,0.617773494
+Keighley,0.5332509525
+Kenilworth and Southam,0.4620568194
+Kensington,0.3120458613
+Kettering,0.6098836886
+Kingston and Surbiton,0.408444531
+Kingston upon Hull East,0.7283156301
+Kingston upon Hull North,0.5978966567
+Kingston upon Hull West and Hessle,0.6799068009
+Kingswood,0.571216387
+Knowsley,0.5234216074
+Lancaster and Fleetwood,0.5198908416
+Leeds Central,0.4596096799
+Leeds East,0.6144434805
+Leeds North East,0.3742284755
+Leeds North West,0.3540609652
+Leeds West,0.5326613806
+Leicester East,0.540619991
+Leicester South,0.424353547
+Leicester West,0.5083599188
+Leigh,0.6328780092
+Lewes,0.471421738
+Lewisham East,0.3537050455
+Lewisham West and Penge,0.3459205781
+"Lewisham, Deptford",0.2442621232
+Leyton and Wanstead,0.34755182
+Lichfield,0.5750890224
+Lincoln,0.5743263373
+"Liverpool, Riverside",0.2730066196
+"Liverpool, Walton",0.5216803564
+"Liverpool, Wavertree",0.3526162544
+"Liverpool, West Derby",0.4982071976
+Loughborough,0.5009042072
+Louth and Horncastle,0.6889943001
+Ludlow,0.5788401838
+Luton North,0.591531961
+Luton South,0.5459717781
+Macclesfield,0.4718379716
+Maidenhead,0.4502570105
+Maidstone and The Weald,0.5591719647
+Makerfield,0.6491008795
+Maldon,0.6095603214
+Manchester Central,0.3635657629
+"Manchester, Gorton",0.3821218401
+"Manchester, Withington",0.2493859855
+Mansfield,0.7086291353
+Meon Valley,0.5192753092
+Meriden,0.5880843468
+Mid Bedfordshire,0.5288045363
+Mid Derbyshire,0.5247070747
+Mid Dorset and North Poole,0.5708316477
+Mid Norfolk,0.6059812834
+Mid Sussex,0.4644059275
+Mid Worcestershire,0.5938652824
+Middlesbrough,0.6608364664
+Middlesbrough South and East Cleveland,0.6526552985
+Milton Keynes North,0.4966509051
+Milton Keynes South,0.5308140404
+Mitcham and Morden,0.4468652381
+Mole Valley,0.4731132761
+Morecambe and Lunesdale,0.5818562055
+Morley and Outwood,0.5981727737
+New Forest East,0.6017814514
+New Forest West,0.552576565
+Newark,0.557006959
+Newbury,0.4780556283
+Newcastle upon Tyne Central,0.4800307977
+Newcastle upon Tyne East,0.4107125543
+Newcastle upon Tyne North,0.568289241
+Newcastle-under-Lyme,0.6164498629
+Newton Abbot,0.5601337034
+"Normanton, Pontefract and Castleford",0.6925528289
+North Cornwall,0.6019250026
+North Devon,0.5703847943
+North Dorset,0.5660860284
+North Durham,0.6030487199
+North East Bedfordshire,0.5343760549
+North East Cambridgeshire,0.693543227
+North East Derbyshire,0.6205167227
+North East Hampshire,0.4617891358
+North East Hertfordshire,0.5143007318
+North East Somerset,0.516345075
+North Herefordshire,0.5801893429
+North Norfolk,0.5840028672
+North Shropshire,0.5984811855
+North Somerset,0.4758369914
+North Swindon,0.5728561384
+North Thanet,0.6518256162
+North Tyneside,0.5952071882
+North Warwickshire,0.6776303004
+North West Cambridgeshire,0.5693409702
+North West Durham,0.5504620043
+North West Hampshire,0.5475487561
+North West Leicestershire,0.6069847772
+North West Norfolk,0.6577828612
+North Wiltshire,0.5030214983
+Northampton North,0.6027129005
+Northampton South,0.5899521881
+Norwich North,0.5672662157
+Norwich South,0.4053030013
+Nottingham East,0.4287932214
+Nottingham North,0.6380805601
+Nottingham South,0.4646776483
+Nuneaton,0.6450599311
+Old Bexley and Sidcup,0.6243048761
+Oldham East and Saddleworth,0.5992043445
+Oldham West and Royton,0.6130829724
+Orpington,0.5754149843
+Oxford East,0.3252633748
+Oxford West and Abingdon,0.3802924096
+Pendle,0.631542958
+Penistone and Stocksbridge,0.6065127663
+Penrith and The Border,0.5520240964
+Peterborough,0.6130959473
+"Plymouth, Moor View",0.6644024004
+"Plymouth, Sutton and Devonport",0.5440523532
+Poole,0.574193151
+Poplar and Limehouse,0.3420763699
+Portsmouth North,0.6369341446
+Portsmouth South,0.517630344
+Preston,0.5567265973
+Pudsey,0.4858436387
+Putney,0.2776423307
+Rayleigh and Wickford,0.6765267372
+Reading East,0.3825332654
+Reading West,0.5151014619
+Redcar,0.676748838
+Redditch,0.6098995823
+Reigate,0.4797697869
+Ribble Valley,0.5873089181
+Richmond (Yorks),0.5471043694
+Richmond Park,0.286856313
+Rochdale,0.5745003587
+Rochester and Strood,0.6368812299
+Rochford and Southend East,0.6092034453
+Romford,0.6928564916
+Romsey and Southampton North,0.4607558645
+Rossendale and Darwen,0.589357362
+Rother Valley,0.6672198864
+Rotherham,0.6834596314
+Rugby,0.5861758176
+"Ruislip, Northwood and Pinner",0.4954384553
+Runnymede and Weybridge,0.4984697172
+Rushcliffe,0.4146612381
+Rutland and Melton,0.5387786935
+Saffron Walden,0.5123953346
+Salford and Eccles,0.5359345748
+Salisbury,0.4990814012
+Scarborough and Whitby,0.6131829001
+Scunthorpe,0.6867554724
+Sedgefield,0.5943575056
+Sefton Central,0.4408858731
+Selby and Ainsty,0.576526008
+Sevenoaks,0.540405142
+Sheffield Central,0.3191197257
+Sheffield South East,0.6631781806
+"Sheffield, Brightside and Hillsborough",0.5997367924
+"Sheffield, Hallam",0.3400606514
+"Sheffield, Heeley",0.5716131009
+Sherwood,0.6365773924
+Shipley,0.5221134452
+Shrewsbury and Atcham,0.5292057793
+Sittingbourne and Sheppey,0.6536448876
+Skipton and Ripon,0.5318714405
+Sleaford and North Hykeham,0.6158316665
+Slough,0.5405691498
+Solihull,0.5334830853
+Somerton and Frome,0.5032814379
+South Basildon and East Thurrock,0.7299557169
+South Cambridgeshire,0.384889637
+South Derbyshire,0.6035100097
+South Dorset,0.5944560911
+South East Cambridgeshire,0.4530481876
+South East Cornwall,0.5509870579
+South Holland and The Deepings,0.710714432
+South Leicestershire,0.5814205318
+South Norfolk,0.5088435338
+South Northamptonshire,0.5333802045
+South Ribble,0.5663894373
+South Shields,0.6205253267
+South Staffordshire,0.6524281719
+South Suffolk,0.5402620066
+South Swindon,0.5165309409
+South Thanet,0.6169104703
+South West Bedfordshire,0.580834155
+South West Devon,0.5507620277
+South West Hertfordshire,0.461954801
+South West Norfolk,0.6667395689
+South West Surrey,0.4074971314
+South West Wiltshire,0.5688136728
+"Southampton, Itchen",0.6029473415
+"Southampton, Test",0.4941218119
+Southend West,0.5507458096
+Southport,0.4629283656
+Spelthorne,0.60299599
+St Albans,0.3783228099
+St Austell and Newquay,0.6406363369
+St Helens North,0.583928578
+St Helens South and Whiston,0.5605374105
+St Ives,0.547660454
+Stafford,0.5746250827
+Staffordshire Moorlands,0.6469043246
+Stalybridge and Hyde,0.592907293
+Stevenage,0.5703690856
+Stockport,0.4678932179
+Stockton North,0.6632496941
+Stockton South,0.5776439166
+Stoke-on-Trent Central,0.6484664776
+Stoke-on-Trent North,0.7212358561
+Stoke-on-Trent South,0.7110740622
+Stone,0.5753522217
+Stourbridge,0.6366398328
+Stratford-on-Avon,0.5100166755
+Streatham,0.2053967406
+Stretford and Urmston,0.4890548546
+Stroud,0.4586215909
+Suffolk Coastal,0.5521257568
+Sunderland Central,0.5993816529
+Surrey Heath,0.5185155398
+Sutton and Cheam,0.5128387875
+Sutton Coldfield,0.5167437686
+Tamworth,0.6599235865
+Tatton,0.4563155816
+Taunton Deane,0.5292471057
+Telford,0.6619103402
+Tewkesbury,0.5364874667
+The Cotswolds,0.479241838
+The Wrekin,0.593223132
+Thirsk and Malton,0.5643278105
+Thornbury and Yate,0.521900806
+Thurrock,0.7025530969
+Tiverton and Honiton,0.578205268
+Tonbridge and Malling,0.5285743191
+Tooting,0.2558758409
+Torbay,0.6245366801
+Torridge and West Devon,0.571897604
+Totnes,0.5389136358
+Tottenham,0.2377702633
+Truro and Falmouth,0.4585036987
+Tunbridge Wells,0.4464633719
+Twickenham,0.3331585769
+Tynemouth,0.4763700409
+Uxbridge and South Ruislip,0.571873736
+Vauxhall,0.2242839619
+Wakefield,0.6276506725
+Wallasey,0.4992311963
+Walsall North,0.7418521817
+Walsall South,0.6163527587
+Walthamstow,0.3348858552
+Wansbeck,0.5628990701
+Wantage,0.4645965101
+Warley,0.6162753511
+Warrington North,0.5807439105
+Warrington South,0.5111005434
+Warwick and Leamington,0.4164027399
+Washington and Sunderland West,0.618513324
+Watford,0.5115197788
+Waveney,0.6341421905
+Wealden,0.5277483489
+Weaver Vale,0.5055283696
+Wellingborough,0.6301966543
+Wells,0.5363034818
+Welwyn Hatfield,0.5282255611
+Wentworth and Dearne,0.7027929536
+West Bromwich East,0.6817501793
+West Bromwich West,0.6867089363
+West Dorset,0.510392986
+West Ham,0.4796501844
+West Lancashire,0.5495081292
+West Suffolk,0.6324870026
+West Worcestershire,0.5251939236
+Westminster North,0.3365480277
+Westmorland and Lonsdale,0.4705617359
+Weston-Super-Mare,0.5720144602
+Wigan,0.6295889069
+Wimbledon,0.2936939468
+Winchester,0.3963737859
+Windsor,0.4665907704
+Wirral South,0.4654894164
+Wirral West,0.4469019958
+Witham,0.6046842975
+Witney,0.4634465746
+Woking,0.4425193357
+Wokingham,0.4269408892
+Wolverhampton North East,0.6770525193
+Wolverhampton South East,0.681449563
+Wolverhampton South West,0.5436750208
+Worcester,0.5367724331
+Workington,0.6101018397
+Worsley and Eccles South,0.5979113324
+Worthing West,0.5601651912
+Wycombe,0.4846191607
+Wyre and Preston North,0.541988663
+Wyre Forest,0.6314547474
+Wythenshawe and Sale East,0.4964809917
+Yeovil,0.5986554456
+York Central,0.388206767
+York Outer,0.446677162
+Aberdeen North,0.4309220874
+Aberdeen South,0.321431052
+Airdrie and Shotts,0.3983812657
+Angus,0.482443342
+Argyll and Bute,0.3943239691
+"Ayr, Carrick and Cumnock",0.4411155085
+Banff and Buchan,0.6137734628
+"Berwickshire, Roxburgh and Selkirk",0.4325868135
+"Caithness, Sutherland and Easter Ross",0.51339391
+Central Ayrshire,0.4162213279
+"Coatbridge, Chryston and Bellshill",0.3877654749
+"Cumbernauld, Kilsyth and Kirkintilloch East",0.3698912494
+Dumfries and Galloway,0.4511085395
+"Dumfriesshire, Clydesdale and Tweeddale",0.4464516678
+Dundee East,0.3841167038
+Dundee West,0.4074563339
+Dunfermline and West Fife,0.3939283743
+East Dunbartonshire,0.2686819626
+"East Kilbride, Strathaven and Lesmahagow",0.369324131
+East Lothian,0.3539559572
+East Renfrewshire,0.2568141894
+Edinburgh East,0.2763678537
+Edinburgh North and Leith,0.2179552346
+Edinburgh South,0.2215338737
+Edinburgh South West,0.2786164648
+Edinburgh West,0.2876601964
+Na h-Eileanan an Iar,0.439006772
+Falkirk,0.4210588228
+Glasgow Central,0.2875060852
+Glasgow East,0.4383731411
+Glasgow North,0.2162047426
+Glasgow North East,0.406576167
+Glasgow North West,0.3149285296
+Glasgow South,0.2819188863
+Glasgow South West,0.4086436703
+Glenrothes,0.4761388839
+Gordon,0.3881886524
+Inverclyde,0.3620342137
+"Inverness, Nairn, Badenoch and Strathspey",0.401324389
+Kilmarnock and Loudoun,0.3945466653
+Kirkcaldy and Cowdenbeath,0.4326145395
+Lanark and Hamilton East,0.3595620573
+Linlithgow and East Falkirk,0.4201830304
+Livingston,0.4326090286
+Midlothian,0.3794096947
+Moray,0.4987319669
+Motherwell and Wishaw,0.3771035609
+North Ayrshire and Arran,0.4239658754
+North East Fife,0.3631478353
+Ochil and South Perthshire,0.395023841
+Orkney and Shetland,0.4028130825
+Paisley and Renfrewshire North,0.3554794429
+Paisley and Renfrewshire South,0.3479527931
+Perth and North Perthshire,0.3990164644
+"Ross, Skye and Lochaber",0.4349302937
+Rutherglen and Hamilton West,0.3756990179
+Stirling,0.3219611271
+West Aberdeenshire and Kincardine,0.3851948274
+West Dunbartonshire,0.3800555298
+Ynys Môn,0.5094200416
+Delyn,0.5440888662
+Alyn and Deeside,0.5805336875
+Wrexham,0.5757425456
+Llanelli,0.5667459672
+Gower,0.4930873269
+Swansea West,0.4340078475
+Swansea East,0.6179255368
+Aberavon,0.6012448399
+Cardiff Central,0.3201457845
+Cardiff North,0.3914785439
+Rhondda,0.6044990078
+Torfaen,0.6077521646
+Monmouth,0.4806450827
+Newport East,0.593309312
+Newport West,0.5365707981
+Arfon,0.3584544298
+Aberconwy,0.5219711731
+Clwyd West,0.5301311812
+Vale of Clwyd,0.5655908168
+Dwyfor Meirionnydd,0.4742822884
+Clwyd South,0.598838563
+Montgomeryshire,0.5584294422
+Ceredigion,0.4537013739
+Preseli Pembrokeshire,0.553168878
+Carmarthen West and South Pembrokeshire,0.5516311742
+Carmarthen East and Dinefwr,0.5320823588
+Brecon and Radnorshire,0.5185508645
+Neath,0.5401540502
+Cynon Valley,0.5673223173
+Merthyr Tydfil and Rhymney,0.5835433883
+Blaenau Gwent,0.6202804437
+Bridgend,0.5027662392
+Ogmore,0.5890245084
+Pontypridd,0.4651097855
+Caerphilly,0.551359713
+Islwyn,0.5893991697
+Vale of Glamorgan,0.5255067009
+Cardiff West,0.438226362
+Cardiff South and Penarth,0.4281719786

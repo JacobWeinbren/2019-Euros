@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-svg.js"></script>
+    <script src="js/jquery-csv.js"></script>
+    <script src="js/panzoom.js"></script>
+    <link rel="stylesheet" href="css/chota.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>2019 Euros</title>
+</head>
+
+<body>
+    <object class="map" type="image/svg+xml" data="data/map.svg"></object>
+    <script src="js/main.js"></script>
+    <div id="info">
+        <span id="hex">&#x2B22;</span>
+        <div id="context">
+            <b id='a'>Constituency Name</b>
+            <p id="b">% of 2017 Labour Vote<br><br><b class="meta">Labour 2017:</b> 0%<br><b class="meta">Labour 2019:</b> 0%</p>
+        </div>
+    </div>
+    <script>
+    $('.map')[0].addEventListener('load', function() {
+        svg = $('.map').getSVG();
+        constituencies = $(svg.find('path'));
+        $(constituencies).each(function(index) {
+            element = $(constituencies[index]);
+            constituency = element.attr('title');
+
+            for (i = 1; i < euros_data.length; i++) {
+                if (euros_data[i][1] == constituency) {
+                    labour_2019 = euros_data[i][7] * 100
+                };
+            }
+
+            for (i = 1; i < elections_data.length; i++) {
+
+                if (elections_data[i][0] == '2017' && elections_data[i][2] == constituency && elections_data[i][4] == "Lab") {
+
+                    labour_2017 = parseFloat(elections_data[i][7])
+
+                    amount = labour_2019 / labour_2017
+
+                    element.css('fill-opacity', amount)
+
+                    element.attr('election', 'lvote')
+                    element.attr('party', 'Lab')
+                    element.attr('amount', amount)
+                    element.attr('a', labour_2017)
+                    element.attr('b', labour_2019)
+                    element.css('fill', colours["Lab"])
+                    ui(element);
+                };
+            }
+            if (constituency == "Buckingham") {
+                element.attr('election', 'lvote')
+                element.attr('amount', 0)
+                element.css('fill-opacity', amount)
+                element.attr('party', 'Lab')
+                element.css('fill', colours["Lab"])
+                element.attr('a', 0)
+                element.attr('b', labour_2019)
+                ui(element);
+            }
+
+
+
+
+        });
+    });
+    </script>
+</body>
+
+</html>

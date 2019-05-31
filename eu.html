@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-svg.js"></script>
+    <script src="js/jquery-csv.js"></script>
+    <script src="js/panzoom.js"></script>
+    <link rel="stylesheet" href="css/chota.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>2019 Euros</title>
+</head>
+
+<body>
+    <object class="map" type="image/svg+xml" data="data/map.svg"></object>
+    <script src="js/main.js"></script>
+    <div id="info">
+        <span id="hex">&#x2B22;</span>
+        <div id="context">
+            <b id='a'>Constituency Name</b>
+            <p id='b'>Constituency Party</p>
+        </div>
+        <div id="chart">
+        </div>
+        <div id="choices">
+            <a class="button primary" onclick='election="eu2019";render();'>EU Elections 2019</a><br>
+            <a class="button primary" onclick='election="eu2016";render();'>EU Referendum 2016</a>
+        </div>
+    </div>
+    <script>
+    election = 'eu2019'
+
+    function render() {
+        svg = $('.map').getSVG();
+        constituencies = $(svg.find('path'));
+        $(constituencies).each(function(index) {
+            element = $(constituencies[index]);
+            constituency = element.attr('title');
+
+            if (election == 'eu2019') {
+                for (i = 1; i < euros_data.length; i++) {
+                    if (euros_data[i][1] == constituency) {
+                        results = [euros_data[i][3], euros_data[i][4], euros_data[i][5], euros_data[i][6], euros_data[i][7], euros_data[i][8], euros_data[i][9], euros_data[i][10], euros_data[i][11], euros_data[i][12]]
+                        party = results.indexOf(results.max().toString());
+                        if (party == 0) {
+                            party = "Brex"
+                        }
+                        if (party == 1) {
+                            party = "CHUK"
+                        }
+                        if (party == 2) {
+                            party = "C"
+                        }
+                        if (party == 3) {
+                            party = "Green"
+                        }
+                        if (party == 4) {
+                            party = "Lab"
+                        }
+                        if (party == 5) {
+                            party = "LD"
+                        }
+                        if (party == 6) {
+                            party = "Other"
+                        }
+                        if (party == 7) {
+                            party = "PC"
+                        }
+                        if (party == 8) {
+                            party = "SNP"
+                        }
+                        if (party == 9) {
+                            party = "UKIP"
+                        }
+
+                        element.attr('election', election)
+                        element.attr('results', results)
+
+                        element.attr('party', party)
+                        element.css('fill', colours[party])
+                        labour_2019 = euros_data[i][8] * 100
+                    }
+                }
+                ui(element);
+            } else {
+                for (i = 1; i < leave_data.length; i++) {
+                    if (leave_data[i][0] == constituency) {
+                        leave = leave_data[i][1]
+                        results = [leave, 1 - leave]
+                        if (leave > 0.5) {
+                            party = 'Leave'
+                        } else {
+                            party = 'Remain'
+                        }
+                        element.attr('election', election)
+                        element.attr('results', results)
+                        element.attr('party', party)
+                        element.css('fill', colours[party])
+                    }
+                }
+            }
+        });
+    }
+
+    $('.map')[0].addEventListener('load', function() {
+        render()
+    });
+    </script>
+</body>
+
+</html>

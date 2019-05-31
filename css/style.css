@@ -1,0 +1,63 @@
+body {
+    background: none transparent;
+    background: #f9f4f4;
+}
+
+.map {
+    float: left;
+    touch-action: none;
+    background-color: white;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.meta {
+    margin-left: 20px;
+}
+
+#info {
+    background-color: white;
+    margin-left: 20px;
+    float: left;
+    width: 400px;
+    height: 180px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+#choices {
+    height: 110px;
+    width: 400px;
+    margin-top: 40px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+#choices a {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px !important;
+}
+
+#hex {
+    float: left;
+    line-height: 100px;
+    font-size: 100px;
+    color: lightgrey;
+}
+
+#context {
+    margin-top: 38px;
+}
+
+#chart {
+    margin-top: 40px;
+    margin-left: 20px;
+    background: lightgrey;
+    width: 300px;
+    height: 30px;
+}
+
+#chart div {
+    height: 30px;
+    float: left;
+}
