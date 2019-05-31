@@ -94,7 +94,11 @@ function ui(element) {
                 $('#b').text(($(this).attr('amount') * 1).toFixed(1) + ' % Change Green Party')
             }
             if (election == 'eu2019s') {
-                $('#b').html('<span class="first">' + parties[$(this).attr('party')] + '</span> gain from <span class="second">' + parties[$(this).attr('party17')] + '</span>')
+                if ($(this).attr('party') == $(this).attr('party17')) {
+                    $('#b').html('<span class="first">' + parties[$(this).attr('party')] + '</span> hold')
+                } else {
+                    $('#b').html('<span class="first">' + parties[$(this).attr('party')] + '</span> gain from <span class="second">' + parties[$(this).attr('party17')] + '</span>')
+                }
                 $('.first').css('color', colours[$(this).attr('party')])
                 $('.second').css('color', colours[$(this).attr('party17')])
             }
