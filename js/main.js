@@ -155,7 +155,11 @@ function ui(element) {
 
                 for (i = 0; i < sorted.length; i++) {
                     party = objectKeyByValue(results, sorted[i]);
-                    $(table).append('<tr><td>' + party[0] + '</td><td>' + party[1] + '</th></tr>')
+                    if (party[0] in parties) {
+                        $(table).append('<tr><td>' + parties[party[0]] + '</td><td>' + party[1] + '</th></tr>')
+                    } else {
+                        $(table).append('<tr><td>' + 'Misc' + '</td><td>' + party[1] + '</th></tr>')
+                    }
                     div = $("<div background></div>")
                     div.css('background-color', colours[party[0]])
                     div.css('width', Math.round(party[1] / total * 300))
