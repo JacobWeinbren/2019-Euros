@@ -57,7 +57,8 @@
     }
     </style>
     <script>
-    $('.map')[0].addEventListener('load', function() {
+    function render() {
+
         svg = $('.map').getSVG();
         constituencies = $(svg.find('path'));
         svg = $('#map2').getSVG();
@@ -199,6 +200,12 @@
                 $('#hex').css('color', 'lightgrey')
             })
         });
+    }
+    $('.map')[0].addEventListener('load', function() {
+        $(window).on('resize', function() {
+            render();
+        });
+        render();
     });
     </script>
 </body>
