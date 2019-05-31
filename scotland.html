@@ -85,7 +85,7 @@
                     element.css('fill-opacity', amount)
                     element2.css('fill', colours['LD'])
 
-                    amount = (ld_2019 - ld_2017) / 50
+                    amount = (ld_2019 - ld_2017) / 100 * 2
                     element2.css('fill-opacity', amount)
                     element2.attr('amount', amount)
                 };
@@ -141,7 +141,7 @@
                     element = $(constituencies2[index]);
                     constituency = element.attr('title');
                     if (constituency == loc) {
-                        $('#d').text(($(element).attr('amount') * 100).toFixed(1) + ' % Change Liberal Democrats')
+                        $('#d').text(($(element).attr('amount') * 100).toFixed(1) / 2 + ' % Change Liberal Democrats')
                         $(element).css('fill-opacity', 1)
                     }
                 });
@@ -165,7 +165,7 @@
                 $(this).css('fill-opacity', 1)
                 loc = $(this).attr('class')
                 $('#a').text(loc)
-                $('#d').text(($(this).attr('amount') * 100).toFixed(1) + ' % Change Liberal Democrats')
+                $('#d').text(($(this).attr('amount') * 100).toFixed(1) / 2 + ' % Change Liberal Democrats')
                 $(constituencies).each(function(index) {
                     element = $(constituencies[index]);
                     constituency = element.attr('title');
