@@ -9,6 +9,7 @@ body {
     }
 
     .alt {
+        margin: 10px;
         display: block !important;
         width: 250px;
     }
