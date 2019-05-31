@@ -111,7 +111,6 @@ function ui(element) {
                 $('#chart').css('background', 'white')
                 results = JSON.parse("[" + $(this).attr('results') + "]");
                 $("#t-results").html('')
-                table = $("#t-results").append('<table class="stripped"><tr></table>')
                 if (election == 'eu2019' || election == 'eu2019s') {
                     results = {
                         "Brex": results[0],
@@ -125,7 +124,7 @@ function ui(element) {
                         "SNP": results[8],
                         "UKIP": results[9]
                     }
-                    $(table).append('<tr><th style="padding-left: 50px !important;">Party</th><th>Vote Share (%)</th></tr>')
+                    $(table).append('<tr><th style="margin-left: 50px !important;">Party</th><th>Vote Share (%)</th></tr>')
 
                 }
                 if (election == 'eu2016') {
