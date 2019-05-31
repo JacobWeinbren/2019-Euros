@@ -133,6 +133,7 @@ function ui(element) {
                         "Leave": results[0],
                         "Remain": results[1]
                     }
+                    $(table).append('<tr><th>Referendum Campaign</th><th>Vote Share (%)</th></tr>')
                 }
 
 
