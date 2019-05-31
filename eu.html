@@ -23,12 +23,43 @@
             </div>
             <div id="chart">
             </div>
-            <div id="choices">
-                <a class="button primary" onclick='election="eu2019";render();'>EU Elections 2019</a><br>
-                <a class="button primary" onclick='election="eu2016";render();'>EU Referendum 2016</a>
+            <div id="t-results">
             </div>
         </div>
+        <div id="choices">
+            <a class="button primary" onclick='election="eu2019";render();'>EU Elections 2019</a><br>
+            <a class="button primary" onclick='election="eu2016";render();'>EU Referendum 2016</a>
+        </div>
     </div>
+    <style>
+    td {
+        padding: 0;
+        padding-left: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 60px;
+        text-align: center;
+    }
+
+    #t-results {
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    #info {
+        height: 450px;
+    }
+
+    #choices {
+        position: absolute;
+        right: 17px;
+        top: 450px;
+    }
+    </style>
     <script>
     election = 'eu2019'
 
