@@ -105,6 +105,7 @@ function ui(element) {
             if (election == 'eu2019' || election == 'eu2016') {
                 $('#b').text(parties[$(this).attr('party')])
             }
+            table = $('#t-results')
             $('#hex').css('color', colours[$(this).attr('party')])
             if (election != 'lvote') {
                 $('#chart').html('')
@@ -124,7 +125,7 @@ function ui(element) {
                         "SNP": results[8],
                         "UKIP": results[9]
                     }
-                    $(table).append('<tr><th style="margin-left: 50px !important;">Party</th><th>Vote Share (%)</th></tr>')
+                    $(table).append('<tr><th>Party</th><th>Vote Share (%)</th></tr>')
 
                 }
                 if (election == 'eu2016') {
@@ -180,7 +181,7 @@ function ui(element) {
 
         }
     }, function() {
-        $("#t-results").html('')
+        //$("#t-results").html('')
         election = $(this).attr('election')
         $('#chart').html('')
         $('#chart').css('background', 'lightgrey')
