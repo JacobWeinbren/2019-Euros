@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="167.41405"
+   version="1.1"
+   width="138.39462"
+   id="svg4030"
+   sodipodi:docname="map copy.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   style="overflow:hidden">
+  <metadata
+     id="metadata695">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1414"
+     inkscape:window-height="758"
+     id="namedview693"
+     showgrid="false"
+     inkscape:zoom="1.19198"
+     inkscape:cx="169.7471"
+     inkscape:cy="-16.001359"
+     inkscape:window-x="44"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4030"
+     inkscape:snap-smooth-nodes="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs690">
+    <sodipodi:namedview
+       inkscape:current-layer="layer1"
+       inkscape:window-maximized="0"
+       inkscape:window-y="0"
+       inkscape:window-x="0"
+       inkscape:cy="605.07276"
+       inkscape:cx="-314.40387"
+       inkscape:zoom="0.297995"
+       showgrid="false"
+       id="namedview688"
+       inkscape:window-height="709"
+       inkscape:window-width="1235"
+       inkscape:pageshadow="2"
+       inkscape:pageopacity="0"
+       guidetolerance="10"
+       gridtolerance="10"
+       objecttolerance="10"
+       borderopacity="1"
+       bordercolor="#666666"
+       pagecolor="#ffffff" />
+    <style
+       id="style5">
+        g {
+            cursor: pointer;
+        }
+        </style>
+    <defs
+       id="defs4034" />
+    <sodipodi:namedview
+       pagecolor="#ffffff"
+       bordercolor="#666666"
+       borderopacity="1"
+       objecttolerance="10"
+       gridtolerance="10"
+       guidetolerance="10"
+       inkscape:pageopacity="0"
+       inkscape:pageshadow="2"
+       inkscape:window-width="1440"
+       inkscape:window-height="784"
+       id="namedview4032"
+       showgrid="false"
+       inkscape:zoom="2.38396"
+       inkscape:cx="563.85929"
+       inkscape:cy="306.5091"
+       inkscape:window-x="0"
+       inkscape:window-y="0"
+       inkscape:window-maximized="0"
+       inkscape:current-layer="layer2" />
+  </defs>
+  <g
+     inkscape:label="backing"
+     id="layer1"
+     inkscape:groupmode="layer"
+     transform="matrix(0.55044641,0,0,0.55044641,93.30792,-23.311389)" />
+  <path
+     d="M 93.70612,9.4427012 M 101.3353,5.0391302 93.70612,0.63555918 86.07693,5.0391302 v 8.8071428 l 7.62919,4.403572 7.62918,-4.403572 z"
+     selected="false"
+     active="true"
+     id="hex-S14000051"
+     title="Orkney and Shetland"
+     data-regions="S14000051"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     class="location"
+     party=""
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 114.96053,52.285563 m 7.62919,-4.40358 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z"
+     selected="false"
+     active="true"
+     id="hex-S14000058"
+     title="West Aberdeenshire and Kincardine"
+     data-regions="S14000058"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     class="location"
+     party=""
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4848"
+     d="m 99.70809,166.7784 7.62721,-4.40357 v 0 0 l -0.004,-8.80714 7.63117,-4.40357 v -8.80714 l 7.62325,-4.40357 v 0"
+     style="fill:none;fill-rule:evenodd;stroke:#d3d3d3;stroke-width:0.55044639;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path2776"
+     d="m 99.70809,166.7784 7.62721,-4.40357 v -8.80714 l 7.62732,-4.40357 v -8.80714 l 7.6271,-4.40357"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10089278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <g
+     id="g1554"
+     transform="translate(-581.03063,-45.816234)">
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000001"
+       title="Aberdeen North"
+       id="hex-S14000001"
+       active="true"
+       selected="false"
+       d="m 703.61837,84.891078 m 7.62919,-4.403572 -7.62919,-4.403571 -7.62918,4.403571 v 8.807143 l 7.62918,4.403571 7.62919,-4.403571 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000002"
+       title="Aberdeen South"
+       id="hex-S14000002"
+       active="true"
+       selected="false"
+       d="m 711.24559,98.101792 m 7.62918,-4.403572 -7.62918,-4.403571 -7.62919,4.403571 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000003"
+       title="Airdrie and Shotts"
+       id="hex-S14000003"
+       active="true"
+       selected="false"
+       d="m 650.22791,150.94465 m 7.62919,-4.40357 -7.62919,-4.40358 -7.62918,4.40358 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000004"
+       title="Angus"
+       id="hex-S14000004"
+       active="true"
+       selected="false"
+       d="m 688.36396,111.31251 m 7.62919,-4.40358 -7.62919,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000005"
+       title="Argyll and Bute"
+       id="hex-S14000005"
+       active="true"
+       selected="false"
+       d="m 642.6007,111.31251 m 7.62919,-4.40358 -7.62919,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000006"
+       title="Ayr, Carrick and Cumnock"
+       id="hex-S14000006"
+       active="true"
+       selected="false"
+       d="m 634.97349,203.7875 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000007"
+       title="Banff and Buchan"
+       id="hex-S14000007"
+       active="true"
+       selected="false"
+       d="m 680.73675,98.101792 m 7.62918,-4.403572 -7.62918,-4.403571 -7.62919,4.403571 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000008"
+       title="Berwickshire, Roxburgh and Selkirk"
+       id="hex-S14000008"
+       active="true"
+       selected="false"
+       d="m 688.36396,190.57679 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000009"
+       title="Caithness, Sutherland and Easter Ross"
+       id="hex-S14000009"
+       active="true"
+       selected="false"
+       d="m 665.48233,71.680364 m 7.62919,-4.403571 -7.62919,-4.403572 -7.62919,4.403572 v 8.807142 l 7.62919,4.403571 7.62919,-4.403571 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000010"
+       title="Central Ayrshire"
+       id="hex-S14000010"
+       active="true"
+       selected="false"
+       d="m 612.09186,190.57679 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000011"
+       title="Coatbridge, Chryston and Bellshill"
+       id="hex-S14000011"
+       active="true"
+       selected="false"
+       d="m 634.97349,150.94465 m 7.62919,-4.40357 -7.62919,-4.40358 -7.62919,4.40358 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000012"
+       title="Cumbernauld, Kilsyth and Kirkintilloch East"
+       id="hex-S14000012"
+       active="true"
+       selected="false"
+       d="m 642.6007,137.73393 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40358 7.62919,-4.40358 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000013"
+       title="Dumfries and Galloway"
+       id="hex-S14000013"
+       active="true"
+       selected="false"
+       d="m 665.48233,203.7875 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000014"
+       title="Dumfriesshire, Clydesdale and Tweeddale"
+       id="hex-S14000014"
+       active="true"
+       selected="false"
+       d="m 680.73675,203.7875 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000015"
+       title="Dundee East"
+       id="hex-S14000015"
+       active="true"
+       selected="false"
+       d="m 680.73675,124.52322 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000016"
+       title="Dundee West"
+       id="hex-S14000016"
+       active="true"
+       selected="false"
+       d="m 673.10954,111.31251 m 7.62918,-4.40358 -7.62918,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000017"
+       title="Dunfermline and West Fife"
+       id="hex-S14000017"
+       active="true"
+       selected="false"
+       d="m 673.10954,137.73393 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40358 7.62918,-4.40358 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000018"
+       title="East Dunbartonshire"
+       id="hex-S14000018"
+       active="true"
+       selected="false"
+       d="m 634.97349,124.52322 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000019"
+       title="East Kilbride, Strathaven and Lesmahagow"
+       id="hex-S14000019"
+       active="true"
+       selected="false"
+       d="m 642.6007,190.57679 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000020"
+       title="East Lothian"
+       id="hex-S14000020"
+       active="true"
+       selected="false"
+       d="m 695.99116,177.36607 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80715 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000021"
+       title="East Renfrewshire"
+       id="hex-S14000021"
+       active="true"
+       selected="false"
+       d="m 604.46466,177.36607 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000022"
+       title="Edinburgh East"
+       id="hex-S14000022"
+       active="true"
+       selected="false"
+       d="m 688.36396,164.15536 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000023"
+       title="Edinburgh North and Leith"
+       id="hex-S14000023"
+       active="true"
+       selected="false"
+       d="m 673.10954,164.15536 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000024"
+       title="Edinburgh South"
+       id="hex-S14000024"
+       active="true"
+       selected="false"
+       d="m 680.73675,177.36607 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000025"
+       title="Edinburgh South West"
+       id="hex-S14000025"
+       active="true"
+       selected="false"
+       d="m 665.48233,177.36607 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000026"
+       title="Edinburgh West"
+       id="hex-S14000026"
+       active="true"
+       selected="false"
+       d="m 657.85512,164.15536 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000027"
+       title="Na h-Eileanan an Iar"
+       id="hex-S14000027"
+       active="true"
+       selected="false"
+       d="m 638.97349,81.680364 m 7.62919,-4.403571 -7.62919,-4.403572 -7.62919,4.403572 v 8.807142 l 7.62919,4.403571 7.62919,-4.403571 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000028"
+       title="Falkirk"
+       id="hex-S14000028"
+       active="true"
+       selected="false"
+       d="m 657.85512,137.73393 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40358 7.62919,-4.40358 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000029"
+       title="Glasgow Central"
+       id="hex-S14000029"
+       active="true"
+       selected="false"
+       d="m 627.34629,164.15536 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000030"
+       title="Glasgow East"
+       id="hex-S14000030"
+       active="true"
+       selected="false"
+       d="m 634.97349,177.36607 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000031"
+       title="Glasgow North"
+       id="hex-S14000031"
+       active="true"
+       selected="false"
+       d="m 619.71907,150.94465 m 7.62919,-4.40357 -7.62919,-4.40358 -7.62918,4.40358 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000032"
+       title="Glasgow North East"
+       id="hex-S14000032"
+       active="true"
+       selected="false"
+       d="m 627.34629,137.73393 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40358 7.62918,-4.40358 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000033"
+       title="Glasgow North West"
+       id="hex-S14000033"
+       active="true"
+       selected="false"
+       d="m 612.09186,137.73393 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40358 7.62919,-4.40358 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000034"
+       title="Glasgow South"
+       id="hex-S14000034"
+       active="true"
+       selected="false"
+       d="m 619.71907,177.36607 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80715 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000035"
+       title="Glasgow South West"
+       id="hex-S14000035"
+       active="true"
+       selected="false"
+       d="m 612.09186,164.15536 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000036"
+       title="Glenrothes"
+       id="hex-S14000036"
+       active="true"
+       selected="false"
+       d="m 695.99116,124.52322 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000037"
+       title="Gordon"
+       id="hex-S14000037"
+       active="true"
+       selected="false"
+       d="m 688.36396,84.891078 m 7.62919,-4.403572 -7.62919,-4.403571 -7.62919,4.403571 v 8.807143 l 7.62919,4.403571 7.62919,-4.403571 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000038"
+       title="Inverclyde"
+       id="hex-S14000038"
+       active="true"
+       selected="false"
+       d="m 596.83745,137.73393 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40358 7.62918,-4.40358 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000039"
+       title="Inverness, Nairn, Badenoch and Strathspey"
+       id="hex-S14000039"
+       active="true"
+       selected="false"
+       d="m 657.85512,84.891078 m 7.62919,-4.403572 -7.62919,-4.403571 -7.62919,4.403571 v 8.807143 l 7.62919,4.403571 7.62919,-4.403571 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000040"
+       title="Kilmarnock and Loudoun"
+       id="hex-S14000040"
+       active="true"
+       selected="false"
+       d="m 650.22791,203.7875 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000041"
+       title="Kirkcaldy and Cowdenbeath"
+       id="hex-S14000041"
+       active="true"
+       selected="false"
+       d="m 688.36396,137.73393 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40358 7.62919,-4.40358 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000042"
+       title="Lanark and Hamilton East"
+       id="hex-S14000042"
+       active="true"
+       selected="false"
+       d="m 657.85512,190.57679 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000043"
+       title="Linlithgow and East Falkirk"
+       id="hex-S14000043"
+       active="true"
+       selected="false"
+       d="m 665.48233,150.94465 m 7.62919,-4.40357 -7.62919,-4.40358 -7.62919,4.40358 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000044"
+       title="Livingston"
+       id="hex-S14000044"
+       active="true"
+       selected="false"
+       d="m 650.22791,177.36607 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80715 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000045"
+       title="Midlothian"
+       id="hex-S14000045"
+       active="true"
+       selected="false"
+       d="m 673.10954,190.57679 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000046"
+       title="Moray"
+       id="hex-S14000046"
+       active="true"
+       selected="false"
+       d="m 665.48233,98.101792 m 7.62919,-4.403572 -7.62919,-4.403571 -7.62919,4.403571 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000047"
+       title="Motherwell and Wishaw"
+       id="hex-S14000047"
+       active="true"
+       selected="false"
+       d="m 642.6007,164.15536 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000048"
+       title="North Ayrshire and Arran"
+       id="hex-S14000048"
+       active="true"
+       selected="false"
+       d="m 589.21024,177.36607 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000049"
+       title="North East Fife"
+       id="hex-S14000049"
+       active="true"
+       selected="false"
+       d="m 703.61837,111.31251 m 7.62919,-4.40358 -7.62919,-4.40357 -7.62918,4.40357 v 8.80715 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000050"
+       title="Ochil and South Perthshire"
+       id="hex-S14000050"
+       active="true"
+       selected="false"
+       d="m 665.48233,124.52322 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000052"
+       title="Paisley and Renfrewshire North"
+       id="hex-S14000052"
+       active="true"
+       selected="false"
+       d="m 604.46466,150.94465 m 7.62918,-4.40357 -7.62918,-4.40358 -7.62919,4.40358 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000053"
+       title="Paisley and Renfrewshire South"
+       id="hex-S14000053"
+       active="true"
+       selected="false"
+       d="m 596.83745,164.15536 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000054"
+       title="Perth and North Perthshire"
+       id="hex-S14000054"
+       active="true"
+       selected="false"
+       d="m 657.85512,111.31251 m 7.62919,-4.40358 -7.62919,-4.40357 -7.62919,4.40357 v 8.80715 l 7.62919,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000055"
+       title="Ross, Skye and Lochaber"
+       id="hex-S14000055"
+       active="true"
+       selected="false"
+       d="m 650.22791,98.101792 m 7.62919,-4.403572 -7.62919,-4.403571 -7.62918,4.403571 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000056"
+       title="Rutherglen and Hamilton West"
+       id="hex-S14000056"
+       active="true"
+       selected="false"
+       d="m 627.34629,190.57679 m 7.62918,-4.40357 -7.62918,-4.40357 -7.62919,4.40357 v 8.80714 l 7.62919,4.40357 7.62918,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000057"
+       title="Stirling"
+       id="hex-S14000057"
+       active="true"
+       selected="false"
+       d="m 650.22791,124.52322 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       inkscape:connector-curvature="0"
+       party=""
+       class="location"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#d3d3d3;stroke-width:0.55044597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       data-regions="S14000059"
+       title="West Dunbartonshire"
+       id="hex-S14000059"
+       active="true"
+       selected="false"
+       d="m 619.71907,124.52322 m 7.62919,-4.40357 -7.62919,-4.40357 -7.62918,4.40357 v 8.80714 l 7.62918,4.40357 7.62919,-4.40357 z" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10089278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 674.73675,64.066079 7.62918,-4.403572 v -8.807142 l -7.62918,-4.403571 -7.62919,4.403571 v 8.807142 z"
+       id="path693"
+       inkscape:connector-curvature="0" />
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path695"
+     d="m 57.94286,27.056987 7.62919,4.403572 v 8.807142 l -7.62919,4.403572 -7.62919,-4.403572 v -8.807142 z"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10089278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path697"
+     d="m 84.4517,17.056987 -7.62919,4.403572 v 8.807142 l -7.62721,4.403571 v 8.807141 l -7.6272,4.40357 v 8.80714 l -7.62722,4.40357 0.002,8.80715 -7.62919,4.40357 -7.62523,-4.40357 -7.62919,4.40357 v 8.80714 l -7.627214,4.40357 -7.62523,-4.40357 -7.6291896,4.40357 v 8.80714 l 7.6272196,4.403577 v 8.80714 l -7.6272196,4.40357 0.002,8.80714 -7.62919001,4.40357 v 8.80715 l 7.62919001,4.40357 7.6252296,-4.40357 7.62721,4.40357 v 8.80714 l 7.629184,4.40357 7.62919,-4.40357 7.62326,4.40357 v 8.80714 l 7.62918,4.40357 7.62524,-4.40357 7.62918,4.40357 7.62919,-4.40357 7.62523,4.40357 7.62523,-4.40357 7.62721,4.40357"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10089278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path699"
+     d="m 122.58972,135.95341 v -8.80715 l -7.62919,-4.40357 0.002,-8.80714 -7.62919,-4.40357 -7.62524,4.40357 -7.62918,-4.40357 0.002,-8.80714 7.6272,-4.403577 7.62524,4.403577 7.62919,-4.403577 v -8.80714 l 7.6272,-4.40357 v -8.80714 l 7.62721,-4.40357 v -8.80715 l 7.62721,-4.40357 v -8.80714 l -7.6268,-4.40357 v -8.807141 l -7.62918,-4.403571 -7.62523,4.403571 -7.62919,-4.403571 -7.62919,4.403571 0.002,8.807141 -7.62523,4.40357 -7.62918,-4.40357 0.002,-8.807141 7.62721,-4.403571 v -8.807142 l -7.62919,-4.403572 v 0"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.10089278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 99.70809,166.7784 7.62326,-4.40357 0.004,-8.80714 7.62732,-4.40357 -0.004,-8.80714 7.63116,-4.40357"
+     id="path1497"
+     inkscape:connector-curvature="0" />
+</svg>

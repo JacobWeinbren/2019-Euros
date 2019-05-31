@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-svg.js"></script>
+    <script src="js/jquery-csv.js"></script>
+    <script src="js/panzoom.js"></script>
+    <link rel="stylesheet" href="css/chota.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>2019 Euros</title>
+</head>
+
+<body>
+    <object class="map" type="image/svg+xml" data="data/scotland.svg"></object>
+    <object class="map" id="map2" type="image/svg+xml" data="data/scotland.svg"></object>
+    <script src="js/main.js"></script>
+    <div id="info">
+        <span id="hex">&#x2B22;</span>
+        <div id="context">
+            <b id='a'>Constituency Name</b>
+            <p id="b">Constituency Party</p><br>
+            <p id="c">% Change Brexit Party</p>
+            <p id="d">% Change Liberal Democrats</p>
+        </div>
+    </div>
+    <style>
+    #c,
+    #d {
+        margin-left: 20px;
+    }
+
+    #c,
+    #b {
+        margin-bottom: 0
+    }
+
+    #d {
+        color: #FAA61A;
+    }
+
+    #c {
+        color: #12B6CF;
+        margin-top: 0;
+    }
+
+    #map2 {
+        margin-left: 20px;
+    }
+
+    #info {
+        height: 167px !important;
+
+    }
+    </style>
+    <script>
+    $('.map')[0].addEventListener('load', function() {
+        svg = $('.map').getSVG();
+        constituencies = $(svg.find('path'));
+        svg = $('#map2').getSVG();
+        constituencies2 = $(svg.find('path'));
+        $(constituencies).each(function(index) {
+            element = $(constituencies[index]);
+            element2 = $(constituencies2[index]);
+            constituency = element.attr('title');
+            element.removeClass('location')
+            element.addClass(constituency)
+            element2.removeClass('location')
+            element2.addClass(constituency)
+
+            for (i = 1; i < elections_data.length; i++) {
+                if (elections_data[i][0] == '2017' && elections_data[i][2] == constituency && elections_data[i][4] == "LD") {
+                    ld_2017 = parseFloat(elections_data[i][7])
+                };
+            }
+
+            for (i = 1; i < euros_data.length; i++) {
+                if (euros_data[i][1] == constituency) {
+                    brexit_2019 = euros_data[i][3] * 100
+                    ld_2019 = euros_data[i][8] * 100
+                    element.css('fill', colours['Brex'])
+                    amount = brexit_2019 / 50
+
+                    element.attr('amount', amount)
+                    element.css('fill-opacity', amount)
+                    element2.css('fill', colours['LD'])
+
+                    amount = (ld_2019 - ld_2017) / 50
+                    element2.css('fill-opacity', amount)
+                    element2.attr('amount', amount)
+                };
+            }
+
+            for (i = 1; i < euros_data.length; i++) {
+                if (euros_data[i][1] == constituency) {
+                    results = [euros_data[i][3], euros_data[i][4], euros_data[i][5], euros_data[i][6], euros_data[i][7], euros_data[i][8], euros_data[i][9], euros_data[i][10], euros_data[i][11], euros_data[i][12]]
+                    party = results.indexOf(results.max().toString());
+                    if (party == 0) {
+                        party = "Brex"
+                    }
+                    if (party == 1) {
+                        party = "CHUK"
+                    }
+                    if (party == 2) {
+                        party = "C"
+                    }
+                    if (party == 3) {
+                        party = "Green"
+                    }
+                    if (party == 4) {
+                        party = "Lab"
+                    }
+                    if (party == 5) {
+                        party = "LD"
+                    }
+                    if (party == 6) {
+                        party = "Other"
+                    }
+                    if (party == 7) {
+                        party = "PC"
+                    }
+                    if (party == 8) {
+                        party = "SNP"
+                    }
+                    if (party == 9) {
+                        party = "UKIP"
+                    }
+                }
+            }
+            $(element).attr('party', party)
+
+            element.hover(function() {
+                $(this).css('fill-opacity', 1)
+                $('#hex').css('color', (colours[$(this).attr('party')]));
+                $('#b').text(parties[$(this).attr('party')])
+                $('#c').text(($(this).attr('amount') * 100).toFixed(1) + ' % Change Brexit Party')
+
+                loc = $(this).attr('class')
+                $('#a').text(loc)
+                $(constituencies2).each(function(index) {
+                    element = $(constituencies2[index]);
+                    constituency = element.attr('title');
+                    if (constituency == loc) {
+                        $('#d').text(($(element).attr('amount') * 100).toFixed(1) + ' % Change Liberal Democrats')
+                        $(element).css('fill-opacity', 1)
+                    }
+                });
+            }, function() {
+                $(constituencies2).each(function(index) {
+                    element = $(constituencies2[index]);
+                    constituency = element.attr('title');
+                    if (constituency == loc) {
+                        $(element).css('fill-opacity', $(element).attr('amount'))
+                    }
+                });
+                $(this).css('fill-opacity', $(this).attr('amount'))
+                $('#a').text('Constituency Name')
+                $('#b').text('Constituency Party')
+                $('#c').text('% Change Brexit Party')
+                $('#d').text('% Change Liberal Democrats')
+                $('#hex').css('color', 'lightgrey')
+            })
+
+            element2.hover(function() {
+                $(this).css('fill-opacity', 1)
+                loc = $(this).attr('class')
+                $('#a').text(loc)
+                $('#d').text(($(this).attr('amount') * 100).toFixed(1) + ' % Change Liberal Democrats')
+                $(constituencies).each(function(index) {
+                    element = $(constituencies[index]);
+                    constituency = element.attr('title');
+                    if (constituency == loc) {
+                        $('#hex').css('color', (colours[$(element).attr('party')]));
+                        $('#c').html(($(element).attr('amount') * 100).toFixed(1) + ' % Change Brexit Party')
+                        $('#b').text(parties[$(element).attr('party')])
+                        $(element).css('fill-opacity', 1)
+                    }
+                });
+
+
+            }, function() {
+                $(this).css('fill-opacity', $(this).attr('amount'))
+                loc = $(this).attr('class')
+                $(constituencies).each(function(index) {
+                    element = $(constituencies[index]);
+                    constituency = element.attr('title');
+                    if (constituency == loc) {
+                        $(element).css('fill-opacity', $(element).attr('amount'))
+                    }
+                });
+                $(this).css('fill-opacity', $(this).attr('amount'))
+                $('#a').text('Constituency Name')
+                $('#b').text('Constituency Party')
+                $('#c').text('% Change Brexit Party')
+                $('#d').text('% Change Liberal Democrats')
+                $('#hex').css('color', 'lightgrey')
+            })
+        });
+    });
+    </script>
+</body>
+
+</html>

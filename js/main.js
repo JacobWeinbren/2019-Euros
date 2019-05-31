@@ -48,8 +48,7 @@ Array.prototype.max = function() {
 $('.map')[0].addEventListener('load', function() {
     map = svgPanZoom('.map', {
         minZoom: 1,
-        maxZoom: 1,
-        beforePan: beforePan
+        maxZoom: 1
     });
     map.zoom(1)
 });
@@ -92,7 +91,7 @@ function ui(element) {
                 $('#b').html(($(this).attr('amount') * 100).toFixed(1) + '% of 2017 Labour Vote' + '<br><br><b class="meta">Labour 2017:</b> ' + parseFloat($(this).attr('a')).toFixed(1) + '%' + '<br><b class="meta">Labour 2019:</b> ' + parseFloat($(this).attr('b')).toFixed(1) + '%')
             }
             if (election == 'gvote') {
-                $('#b').text(($(this).attr('amount') * 1).toFixed(1) + ' % Vote Green Party Change')
+                $('#b').text(($(this).attr('amount') * 1).toFixed(1) + ' % Change Green Party')
             }
             if (election == 'eu2019s') {
                 $('#b').html('<span class="first">' + parties[$(this).attr('party')] + '</span> gain from <span class="second">' + parties[$(this).attr('party17')] + '</span>')
