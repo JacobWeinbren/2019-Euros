@@ -181,7 +181,7 @@ function ui(element) {
 
         }
     }, function() {
-        //$("#t-results").html('')
+        $("#t-results").html('')
         election = $(this).attr('election')
         $('#chart').html('')
         $('#chart').css('background', 'lightgrey')
