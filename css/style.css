@@ -3,6 +3,17 @@ body {
     background: #f9f4f4;
 }
 
+@media (max-width:600px) {
+    .main {
+        display: none;
+    }
+
+    .alt {
+        display: block !important;
+        width: 250px;
+    }
+}
+
 .map {
     float: left;
     touch-action: none;
