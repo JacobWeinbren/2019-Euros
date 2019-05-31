@@ -159,7 +159,7 @@ function ui(element) {
                     if (party[0] in parties) {
                         $(table).append('<tr><td>' + parties[party[0]] + '</td><td>' + party[1] + '</th></tr>')
                     } else {
-                        $(table).append('<tr><td>' + 'Misc' + '</td><td>' + party[1] + '</th></tr>')
+                        $(table).append('<tr><td>' + 'Other' + '</td><td>' + party[1] + '</th></tr>')
                     }
                     div = $("<div background></div>")
                     div.css('background-color', colours[party[0]])
