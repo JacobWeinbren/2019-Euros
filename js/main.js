@@ -125,7 +125,7 @@ function ui(element) {
                         "SNP": results[8],
                         "UKIP": results[9]
                     }
-                    $(table).append('<tr><th>Party</th><th>Vote Share (%)</th></tr>')
+                    $(table).append('<tr><th style="padding-left: 50px !important;">Party</th><th>Vote Share (%)</th></tr>')
 
                 }
                 if (election == 'eu2016') {
