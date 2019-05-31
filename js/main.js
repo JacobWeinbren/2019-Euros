@@ -102,7 +102,7 @@ function ui(element) {
                 $('.first').css('color', colours[$(this).attr('party')])
                 $('.second').css('color', colours[$(this).attr('party17')])
             }
-            if (election == 'eu2019') {
+            if (election == 'eu2019' || election == 'eu2016') {
                 $('#b').text(parties[$(this).attr('party')])
             }
             $('#hex').css('color', colours[$(this).attr('party')])
