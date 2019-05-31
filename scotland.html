@@ -133,7 +133,7 @@
                 $(this).css('fill-opacity', 1)
                 $('#hex').css('color', (colours[$(this).attr('party')]));
                 $('#b').text(parties[$(this).attr('party')])
-                $('#c').text(($(this).attr('amount') * 100).toFixed(1) + ' % Change Brexit Party')
+                $('#c').text(($(this).attr('amount') * 100).toFixed(1) / 2 + ' % Change Brexit Party')
 
                 loc = $(this).attr('class')
                 $('#a').text(loc)
@@ -171,7 +171,7 @@
                     constituency = element.attr('title');
                     if (constituency == loc) {
                         $('#hex').css('color', (colours[$(element).attr('party')]));
-                        $('#c').html(($(element).attr('amount') * 100).toFixed(1) + ' % Change Brexit Party')
+                        $('#c').html(($(element).attr('amount') * 100).toFixed(1) / 2 + ' % Change Brexit Party')
                         $('#b').text(parties[$(element).attr('party')])
                         $(element).css('fill-opacity', 1)
                     }
