@@ -12,20 +12,22 @@
 </head>
 
 <body>
-    <object class="map" type="image/svg+xml" data="data/map.svg"></object>
-    <script src="js/main.js"></script>
-    <div id="info">
-        <span id="hex">&#x2B22;</span>
-        <div id="context">
-            <b id='a'>Constituency Name</b>
-            <p id="b">% Change Green Party</p>
+    <div class='main'>
+        <object class="map" type="image/svg+xml" data="data/map.svg"></object>
+        <script src="js/main.js"></script>
+        <div id="info">
+            <span id="hex">&#x2B22;</span>
+            <div id="context">
+                <b id='a'>Constituency Name</b>
+                <p id="b">% Change Green Party</p>
+            </div>
         </div>
+        <style>
+        #info {
+            height: 130px !important;
+        }
+        </style>
     </div>
-    <style>
-    #info {
-        height: 130px !important;
-    }
-    </style>
     <script>
     $('.map')[0].addEventListener('load', function() {
         svg = $('.map').getSVG();

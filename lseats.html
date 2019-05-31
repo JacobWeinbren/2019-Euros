@@ -12,19 +12,21 @@
 </head>
 
 <body>
-    <object class="map" type="image/svg+xml" data="data/map.svg"></object>
-    <script src="js/main.js"></script>
-    <div id="info">
-        <span id="hex">&#x2B22;</span>
-        <div id="context">
-            <b id='a'>Constituency Name</b>
-            <p id='b'>Party (2019) gain from Party (2017)</p>
+    <div class='main'>
+        <object class="map" type="image/svg+xml" data="data/map.svg"></object>
+        <script src="js/main.js"></script>
+        <div id="info">
+            <span id="hex">&#x2B22;</span>
+            <div id="context">
+                <b id='a'>Constituency Name</b>
+                <p id='b'>Party (2019) gain from Party (2017)</p>
+            </div>
+            <style>
+            #info {
+                height: 130px !important;
+            }
+            </style>
         </div>
-        <style>
-        #info {
-            height: 130px !important;
-        }
-        </style>
     </div>
     <script>
     function render() {

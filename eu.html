@@ -12,19 +12,21 @@
 </head>
 
 <body>
-    <object class="map" type="image/svg+xml" data="data/map.svg"></object>
-    <script src="js/main.js"></script>
-    <div id="info">
-        <span id="hex">&#x2B22;</span>
-        <div id="context">
-            <b id='a'>Constituency Name</b>
-            <p id='b'>Constituency Party</p>
-        </div>
-        <div id="chart">
-        </div>
-        <div id="choices">
-            <a class="button primary" onclick='election="eu2019";render();'>EU Elections 2019</a><br>
-            <a class="button primary" onclick='election="eu2016";render();'>EU Referendum 2016</a>
+    <div class='main'>
+        <object class="map" type="image/svg+xml" data="data/map.svg"></object>
+        <script src="js/main.js"></script>
+        <div id="info">
+            <span id="hex">&#x2B22;</span>
+            <div id="context">
+                <b id='a'>Constituency Name</b>
+                <p id='b'>Constituency Party</p>
+            </div>
+            <div id="chart">
+            </div>
+            <div id="choices">
+                <a class="button primary" onclick='election="eu2019";render();'>EU Elections 2019</a><br>
+                <a class="button primary" onclick='election="eu2016";render();'>EU Referendum 2016</a>
+            </div>
         </div>
     </div>
     <script>
