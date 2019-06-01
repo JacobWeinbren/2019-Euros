@@ -91,7 +91,12 @@ function ui(element) {
                 $('#b').html(($(this).attr('amount') * 100).toFixed(1) + '% of 2017 Labour Vote' + '<br><br><b class="meta">Labour 2017:</b> ' + parseFloat($(this).attr('a')).toFixed(1) + '%' + '<br><b class="meta">Labour 2019:</b> ' + parseFloat($(this).attr('b')).toFixed(1) + '%')
             }
             if (election == 'gvote') {
-                $('#b').text(($(this).attr('amount') * 1).toFixed(1) + '% Change Green Party')
+                if ($(this).attr('amount') < 0) {
+                    $('#b').html('<span class="red">' + ($(this).attr('amount') * 1).toFixed(1) + '%</span> Change Green Party')
+                } else {
+                    $('#b').text(($(this).attr('amount') * 1).toFixed(1) + '% Change Green Party')
+                }
+
             }
             if (election == 'eu2019s') {
                 if ($(this).attr('party') == $(this).attr('party17')) {

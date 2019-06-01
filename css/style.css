@@ -15,6 +15,10 @@ body {
     }
 }
 
+.red {
+    color: red;
+}
+
 .map {
     float: left;
     touch-action: none;
