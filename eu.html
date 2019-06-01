@@ -12,58 +12,8 @@
 </head>
 
 <body>
-    <a href="https://jacobweinbren.github.io/2019-Euros/eu.html"><img title="EU Election Results by Constituency (2019)" class="alt" src="data/eu.png" style="display: none;" /></a>
-    <div class='main'>
-        <object class="map" type="image/svg+xml" data="data/map.svg"></object>
-        <script src="js/main.js"></script>
-        <div id="info">
-            <span id="hex">&#x2B22;</span>
-            <div id="context">
-                <b id='a'>Constituency Name</b>
-                <p id='b'>Constituency Party</p>
-            </div>
-            <div id="chart">
-            </div>
-            <table id="t-results" class="striped">
-            </table>
-            <a class="button one primary" style="margin-top: 40px; !important" onclick='election="eu2019";render();'>EU Elections 2019</a><br>
-            <a class="button primary" onclick='election="eu2016";render();'>EU Referendum 2016</a>
-        </div>
-    </div>
-    <style>
-    body {
-        overflow: hidden;
-    }
-
-    td {
-        padding: 0;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        text-align: center;
-    }
-
-    .button {
-        margin-top: 10px;
-        margin-left: 20px;
-    }
-
-    #t-results {
-        height: 300px;
-        width: 400px;
-        margin-top: 5px;
-        margin-left: 30px;
-    }
-
-    th {
-        text-align: center;
-    }
-
-    #info {
-        height: 603px;
-    }
-    </style>
     <script>
-    election = 'eu2019'
+        election = 'eu2019'
 
     function render() {
         svg = $('.map').getSVG();
@@ -136,11 +86,57 @@
             }
         });
     }
-
-    $('.map')[0].addEventListener('load', function() {
-        render()
-    });
     </script>
+    <a href="https://jacobweinbren.github.io/2019-Euros/eu.html"><img title="EU Election Results by Constituency (2019)" class="alt" src="data/eu.png" style="display: none;" /></a>
+    <div class='main'>
+        <object class="map" type="image/svg+xml" onload="render();" data="data/map.svg"></object>
+        <script src="js/main.js"></script>
+        <div id="info">
+            <span id="hex">&#x2B22;</span>
+            <div id="context">
+                <b id='a'>Constituency Name</b>
+                <p id='b'>Constituency Party</p>
+            </div>
+            <div id="chart">
+            </div>
+            <table id="t-results" class="striped">
+            </table>
+            <a class="button one primary" style="margin-top: 40px; !important" onclick='election="eu2019";render();'>EU Elections 2019</a><br>
+            <a class="button primary" onclick='election="eu2016";render();'>EU Referendum 2016</a>
+        </div>
+    </div>
+    <style>
+    body {
+        overflow: hidden;
+    }
+
+    td {
+        padding: 0;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    #t-results {
+        height: 300px;
+        width: 400px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    #info {
+        height: 603px;
+    }
+    </style>
 </body>
 
 </html>

@@ -12,29 +12,8 @@
 </head>
 
 <body>
-    <a href="https://jacobweinbren.github.io/2019-Euros/gvote.html"><img class="alt" title="Green Party Vote Share Change (2017-2019)" src="data/gvote.png" style="display: none;" /></a>
-    <style>
-        #info {
-            height: 130px !important;
-        }
-
-        body {
-            overflow: hidden;
-        }
-        </style>
-    <div class='main'>
-        <object class="map" type="image/svg+xml" data="data/map.svg"></object>
-        <script src="js/main.js"></script>
-        <div id="info">
-            <span id="hex">&#x2B22;</span>
-            <div id="context">
-                <b id='a'>Constituency Name</b>
-                <p id="b">% Point Change Green Party</p>
-            </div>
-        </div>
-    </div>
     <script>
-    $('.map')[0].addEventListener('load', function() {
+        function render() {
         svg = $('.map').getSVG();
         constituencies = $(svg.find('path'));
         $(constituencies).each(function(index) {
@@ -64,8 +43,29 @@
 
             }
         });
-    });
+    };
     </script>
+    <a href="https://jacobweinbren.github.io/2019-Euros/gvote.html"><img class="alt" title="Green Party Vote Share Change (2017-2019)" src="data/gvote.png" style="display: none;" /></a>
+    <style>
+        #info {
+            height: 130px !important;
+        }
+
+        body {
+            overflow: hidden;
+        }
+        </style>
+    <div class='main'>
+        <object class="map" type="image/svg+xml" onload="render();" data="data/map.svg"></object>
+        <script src="js/main.js"></script>
+        <div id="info">
+            <span id="hex">&#x2B22;</span>
+            <div id="context">
+                <b id='a'>Constituency Name</b>
+                <p id="b">% Point Change Green Party</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

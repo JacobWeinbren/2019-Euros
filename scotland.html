@@ -12,60 +12,8 @@
 </head>
 
 <body>
-    <a href="https://jacobweinbren.github.io/2019-Euros/scotland.html"><img title="Voteshare Change for the Brexit Party and Liberal Democrats (2017-2019)" class="alt" src="data/scotland.png" style="display: none;" /></a>
-    <div class='main'>
-        <object class="map" type="image/svg+xml" data="data/scotland.svg"></object>
-        <object class="map" id="map2" type="image/svg+xml" data="data/scotland.svg"></object>
-        <script src="js/main.js"></script>
-        <div id="info">
-            <span id="hex">&#x2B22;</span>
-            <div id="context">
-                <b id='a'>Constituency Name</b>
-                <p id="b">Constituency Party</p><br>
-                <p id="c">% Point Change Brexit Party</p>
-                <p id="d">% Point Change Liberal Democrats</p>
-            </div>
-        </div>
-    </div>
-    <style>
-    body {
-        overflow: hidden;
-    }
-
-    #c,
-    #d {
-        margin-left: 20px;
-    }
-
-    #c,
-    #b {
-        margin-bottom: 0
-    }
-
-    #d {
-        color: #FAA61A;
-    }
-
-    #c {
-        color: #12B6CF;
-        margin-top: 0;
-    }
-
-    #map2 {
-        margin-left: 20px;
-    }
-
-    #info {
-        height: 167px !important;
-
-    }
-
-    .main {
-        transform: scale(0.65) !important;
-    }
-    </style>
     <script>
-    function render() {
+        function render() {
 
         svg = $('.map').getSVG();
         constituencies = $(svg.find('path'));
@@ -209,13 +157,59 @@
             })
         });
     }
-    $('.map')[0].addEventListener('load', function() {
-        $(window).on('resize', function() {
-            render();
-        });
-        render();
-    });
     </script>
+    <a href="https://jacobweinbren.github.io/2019-Euros/scotland.html"><img title="Voteshare Change for the Brexit Party and Liberal Democrats (2017-2019)" class="alt" src="data/scotland.png" style="display: none;" /></a>
+    <div class='main'>
+        <object class="map" type="image/svg+xml" onload="render();" data="data/scotland.svg"></object>
+        <object class="map" id="map2" type="image/svg+xml" onload="render();" data="data/scotland.svg"></object>
+        <script src="js/main.js"></script>
+        <div id="info">
+            <span id="hex">&#x2B22;</span>
+            <div id="context">
+                <b id='a'>Constituency Name</b>
+                <p id="b">Constituency Party</p><br>
+                <p id="c">% Point Change Brexit Party</p>
+                <p id="d">% Point Change Liberal Democrats</p>
+            </div>
+        </div>
+    </div>
+    <style>
+    body {
+        overflow: hidden;
+    }
+
+    #c,
+    #d {
+        margin-left: 20px;
+    }
+
+    #c,
+    #b {
+        margin-bottom: 0
+    }
+
+    #d {
+        color: #FAA61A;
+    }
+
+    #c {
+        color: #12B6CF;
+        margin-top: 0;
+    }
+
+    #map2 {
+        margin-left: 20px;
+    }
+
+    #info {
+        height: 167px !important;
+
+    }
+
+    .main {
+        transform: scale(0.65) !important;
+    }
+    </style>
 </body>
 
 </html>

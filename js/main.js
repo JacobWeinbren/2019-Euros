@@ -45,7 +45,7 @@ Array.prototype.max = function() {
     return Math.max.apply(null, this);
 };
 
-$('.map')[0].addEventListener('load', function() {
+window.addEventListener('SVGLoad', function() {
     map = svgPanZoom('.map', {
         minZoom: 1,
         maxZoom: 1
@@ -58,6 +58,7 @@ $.ajax({
     async: false,
     success: function(data) {
         euros_data = $.csv.toArrays(data);
+        render();
     }
 })
 
@@ -66,6 +67,7 @@ $.ajax({
     async: false,
     success: function(data) {
         elections_data = $.csv.toArrays(data);
+        render();
     }
 })
 
@@ -74,6 +76,7 @@ $.ajax({
     async: false,
     success: function(data) {
         leave_data = $.csv.toArrays(data);
+        render();
     }
 })
 

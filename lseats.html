@@ -12,28 +12,7 @@
 </head>
 
 <body>
-    <a href="https://jacobweinbren.github.io/2019-Euros/lseats.html"><img class="alt" title="Labour Losses 2017-2019" src="data/lseats.png" style="display: none;" /></a>
-    <style>
-        #info {
-                height: 130px !important;
-            }
-
-            body {
-                overflow: hidden;
-            }
-            </style>
-    </div>
-    <div class='main'>
-        <object class="map" type="image/svg+xml" data="data/map.svg"></object>
-        <script src="js/main.js"></script>
-        <div id="info">
-            <span id="hex">&#x2B22;</span>
-            <div id="context">
-                <b id='a'>Constituency Name</b>
-                <p id='b'>Party (2019) gain from Party (2017)</p>
-            </div>
-        </div>
-        <script>
+    <script>
         function render() {
             svg = $('.map').getSVG();
             constituencies = $(svg.find('path'));
@@ -104,11 +83,28 @@
 
             });
         }
-
-        $('.map')[0].addEventListener('load', function() {
-            render()
-        });
         </script>
+    <a href="https://jacobweinbren.github.io/2019-Euros/lseats.html"><img class="alt" title="Labour Losses 2017-2019" src="data/lseats.png" style="display: none;" /></a>
+    <style>
+        #info {
+                height: 130px !important;
+            }
+
+            body {
+                overflow: hidden;
+            }
+            </style>
+    </div>
+    <div class='main'>
+        <object class="map" type="image/svg+xml" onload="render();" data="data/map.svg"></object>
+        <script src="js/main.js"></script>
+        <div id="info">
+            <span id="hex">&#x2B22;</span>
+            <div id="context">
+                <b id='a'>Constituency Name</b>
+                <p id='b'>Party (2019) gain from Party (2017)</p>
+            </div>
+        </div>
 </body>
 
 </html>
