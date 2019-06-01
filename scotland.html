@@ -22,8 +22,8 @@
             <div id="context">
                 <b id='a'>Constituency Name</b>
                 <p id="b">Constituency Party</p><br>
-                <p id="c">% Change Brexit Party</p>
-                <p id="d">% Change Liberal Democrats</p>
+                <p id="c">% Point Change Brexit Party</p>
+                <p id="d">% Point Change Liberal Democrats</p>
             </div>
         </div>
     </div>
@@ -141,7 +141,7 @@
                 $(this).css('fill-opacity', 1)
                 $('#hex').css('color', (colours[$(this).attr('party')]));
                 $('#b').text(parties[$(this).attr('party')])
-                $('#c').text((($(this).attr('amount') * 100).toFixed(1) / 2).toFixed(1) + '% Change Brexit Party')
+                $('#c').text((($(this).attr('amount') * 100).toFixed(1) / 2).toFixed(1) + '% Point Change Brexit Party')
 
                 loc = $(this).attr('class')
                 $('#a').text(loc)
@@ -149,7 +149,7 @@
                     element = $(constituencies2[index]);
                     constituency = element.attr('title');
                     if (constituency == loc) {
-                        $('#d').text((($(element).attr('amount') * 100) / 2).toFixed(1) + '% Change Liberal Democrats')
+                        $('#d').text((($(element).attr('amount') * 100) / 2).toFixed(1) + '% Point Change Liberal Democrats')
                         $(element).css('fill-opacity', 1)
                     }
                 });
@@ -173,13 +173,13 @@
                 $(this).css('fill-opacity', 1)
                 loc = $(this).attr('class')
                 $('#a').text(loc)
-                $('#d').text((($(this).attr('amount') * 100) / 2).toFixed(1) + '% Change Liberal Democrats')
+                $('#d').text((($(this).attr('amount') * 100) / 2).toFixed(1) + '% Point Change Liberal Democrats')
                 $(constituencies).each(function(index) {
                     element = $(constituencies[index]);
                     constituency = element.attr('title');
                     if (constituency == loc) {
                         $('#hex').css('color', (colours[$(element).attr('party')]));
-                        $('#c').html((($(element).attr('amount') * 100) / 2).toFixed(1) + '% Change Brexit Party')
+                        $('#c').html((($(element).attr('amount') * 100) / 2).toFixed(1) + '% Point Change Brexit Party')
                         $('#b').text(parties[$(element).attr('party')])
                         $(element).css('fill-opacity', 1)
                     }
@@ -199,8 +199,8 @@
                 $(this).css('fill-opacity', $(this).attr('amount'))
                 $('#a').text('Constituency Name')
                 $('#b').text('Constituency Party')
-                $('#c').text('% point Change Brexit Party')
-                $('#d').text('% point Change Liberal Democrats')
+                $('#c').text('% Point Change Brexit Party')
+                $('#d').text('% Point Change Liberal Democrats')
                 $('#hex').css('color', 'lightgrey')
             })
         });
