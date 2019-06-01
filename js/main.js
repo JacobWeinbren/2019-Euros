@@ -206,7 +206,7 @@ function ui(element) {
         if (election == 'eu2019s') {
             $('#b').text('Party (2019) gain from Party (2017)')
         }
-        if (election == 'eu2019') {
+        if (election == 'eu2019' || election == 'eu2016') {
             $('#b').text('Constituency Party')
         }
         $('#hex').css('color', 'lightgrey')
