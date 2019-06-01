@@ -141,7 +141,7 @@
                 $(this).css('fill-opacity', 1)
                 $('#hex').css('color', (colours[$(this).attr('party')]));
                 $('#b').text(parties[$(this).attr('party')])
-                $('#c').text(($(this).attr('amount') * 100).toFixed(1) / 2 + '% Change Brexit Party')
+                $('#c').text((($(this).attr('amount') * 100).toFixed(1) / 2).toFixed(1) + '% Change Brexit Party')
 
                 loc = $(this).attr('class')
                 $('#a').text(loc)
@@ -149,7 +149,7 @@
                     element = $(constituencies2[index]);
                     constituency = element.attr('title');
                     if (constituency == loc) {
-                        $('#d').text(($(element).attr('amount') * 100).toFixed(1) / 2 + '% Change Liberal Democrats')
+                        $('#d').text((($(element).attr('amount') * 100) / 2).toFixed(1) + '% Change Liberal Democrats')
                         $(element).css('fill-opacity', 1)
                     }
                 });
@@ -173,13 +173,13 @@
                 $(this).css('fill-opacity', 1)
                 loc = $(this).attr('class')
                 $('#a').text(loc)
-                $('#d').text(($(this).attr('amount') * 100).toFixed(1) / 2 + '% Change Liberal Democrats')
+                $('#d').text((($(this).attr('amount') * 100) / 2).toFixed(1) + '% Change Liberal Democrats')
                 $(constituencies).each(function(index) {
                     element = $(constituencies[index]);
                     constituency = element.attr('title');
                     if (constituency == loc) {
                         $('#hex').css('color', (colours[$(element).attr('party')]));
-                        $('#c').html(($(element).attr('amount') * 100).toFixed(1) / 2 + '% Change Brexit Party')
+                        $('#c').html((($(element).attr('amount') * 100) / 2).toFixed(1) + '% Change Brexit Party')
                         $('#b').text(parties[$(element).attr('party')])
                         $(element).css('fill-opacity', 1)
                     }

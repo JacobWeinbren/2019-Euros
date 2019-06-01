@@ -162,13 +162,13 @@ function ui(element) {
                 for (i = 0; i < sorted.length; i++) {
                     party = objectKeyByValue(results, sorted[i]);
                     if (party[0] in parties) {
-                        $(table).append('<tr><td>' + parties[party[0]] + '</td><td>' + party[1] + '</th></tr>')
+                        $(table).append('<tr><td>' + parties[party[0]] + '</td><td>' + parseFloat(party[1]).toFixed(1) + '</th></tr>')
                     } else {
-                        $(table).append('<tr><td>' + 'Other' + '</td><td>' + party[1] + '</th></tr>')
+                        $(table).append('<tr><td>' + 'Other' + '</td><td>' + parseFloat(party[1]).toFixed(1) + '</th></tr>')
                     }
                     div = $("<div background></div>")
                     div.css('background-color', colours[party[0]])
-                    div.css('width', Math.round(party[1] / total * 300))
+                    div.css('width', Math.round(party[1] / total * 410))
                     $('#chart').append(div)
                 }
 
@@ -178,7 +178,7 @@ function ui(element) {
                     total += parseInt($(this).css('width'))
                     parts += 1
                 })
-                difference = (300 - total) / parts
+                difference = (410 - total) / parts
                 $('#chart').children('div').each(function() {
                     $(this).css('width', parseInt($(this).css('width')) + difference)
                 })

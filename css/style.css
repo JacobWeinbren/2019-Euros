@@ -30,6 +30,12 @@ body {
     margin-left: 20px;
 }
 
+.button {
+    text-align: center;
+    margin-left: 100px !important;
+    width: 250px !important;
+}
+
 .main {
     margin-left: 40px;
     position: relative;
@@ -78,7 +84,7 @@ body {
     margin-top: 40px;
     margin-left: 20px;
     background: lightgrey;
-    width: 300px;
+    width: 410px;
     height: 30px;
 }
 
