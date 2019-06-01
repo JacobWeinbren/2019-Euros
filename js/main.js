@@ -92,9 +92,9 @@ function ui(element) {
             }
             if (election == 'gvote') {
                 if ($(this).attr('amount') < 0) {
-                    $('#b').html('<span class="red">' + ($(this).attr('amount') * 1).toFixed(1) + '%</span> Change Green Party')
+                    $('#b').html('<span class="red">' + ($(this).attr('amount') * 1).toFixed(1) + '%</span> point Change Green Party')
                 } else {
-                    $('#b').text(($(this).attr('amount') * 1).toFixed(1) + '% Change Green Party')
+                    $('#b').text(($(this).attr('amount') * 1).toFixed(1) + '% point Change Green Party')
                 }
 
             }
@@ -192,7 +192,7 @@ function ui(element) {
         $('#chart').css('background', 'lightgrey')
         if (election != 'lvote') {
             if (election == 'gvote') {
-                $('#b').text('% Change Green Party')
+                $('#b').text('% point Change Green Party')
                 $(this).css('fill-opacity', $(this).attr('amount') / 100 * 5)
             }
             $(this).css('opacity', '1')
