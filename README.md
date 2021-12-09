@@ -7,3 +7,5 @@ Sources:
 https://data.gov.uk/dataset/b77fcedb-4792-4de4-935f-4f344ed4c2c6/general-election-results-2017
 - EU Ref Results:
 https://medium.com/@chrishanretty/final-estimates-of-the-leave-vote-or-areal-interpolation-and-the-uks-referendum-on-eu-membership-5490b6cab878
+- Map:
+https://open-innovations.org/projects/hexmaps/constituencies/
